@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+}
+
+#mainDiv {
+    height: 800px;
+    width: 1600px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: black;
+    color: red;
+    font-family: 'Arial';
+    margin-top: -23px;
+    height: 10%
+}
+
+header>h1 {
+    font-family: "Mortal Kombat 4", sans-serif;
+    font-size: 200%;
+    color: rgba(255, 255, 0, 0.858);
+}
+
+
+/*Character Selection Styles*/
+#characterSelectDiv {
+    padding: 0px;
+}
+
+#selectTjNEarlDiv {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    padding: 70px;
+    background-image: url('tjearl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#selectTjNEarlDiv:hover {
+    border: yellow 5px solid;
+    opacity: 0.5;
+}
+
+#selectBubbleBobbleDiv {
+    display: inline-block;
+    height: 170px;
+    width: 300px;
+    background-image: url('bb1_2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#selectBubbleBobbleDiv:hover {
+    border: yellow 5px solid;
+    opacity: 0.5;
+}
+
+.playerDivStyle {
+    display: flex;
+    background-image: url('mkbackdrop.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#combatSpan {
+    color: white;
+    font-size: 28px;
+}
+
+#fightButtonDiv {
+    display: none;
+    background-color: rgb(187, 125, 9);
+    border: 5px solid yellow;
+    height: 20px;
+    width: 200px;
+    color: rgba(255, 255, 0, 0.858);
+    font-family: "Mortal Kombat 4", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+
+/*Character Styles*/
+.tjNEarlStyle {
+    position: absolute;
+    display: inline-block;
+    padding: 200px;
+    margin-top: 580px;
+    background-image: url('tjearl.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.bubbleBobbleStyle {
+    display: inline-block;
+    position: absolute;
+    background-image: url('bub_bob.gif');
+    margin-top: 400px;
+    padding: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.goroStyle {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 70%;
+    background-image: url('goro.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+
+
+/*Backdrop Styles*/
+.tjnEarlBackgroundStyle {
+    display: flex;
+    background-image: url('tjnearlbackdrop.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.bbBackgroundStyle {
+    display: flex;
+    background-image: url('bbbackdrop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+/*Ending*/
+/* #winMessage {
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    margin-left: 350px;
+}
+
+#startButton {
+    margin-top: 80px;
+    margin-left: 600px;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Sigmar One', cursive;
+    background-color: rgba(244, 244, 11, 0.952);
+    border: 5px solid rgba(255, 255, 0, 0.248);
+}
+
+.playerGameEnd {
+    display: none;
+} */
